@@ -16,19 +16,25 @@ To integrate the `VADChunker` class into your project, follow these steps:
 git clone https://github.com/your-username/audio-segmentation-vad.git
 ```
 
-2. **Import the VADChunker Class:**
+2. **Install the Dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Import the VADChunker Class:**
 
 ```python
 from vad_chunker import VADChunker
 ```
 
-3. **Instantiate the VADChunker Class:**
+4. **Instantiate the VADChunker Class:**
 
 ```python
 vad_chunker = VADChunker()
 ```
 
-4. **Process Audio Bytes:**
+5. **Process Audio Bytes:**
 
 ```python
 vad_chunker.input_chunk(audio_bytes)
